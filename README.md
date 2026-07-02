@@ -2,7 +2,7 @@
 
 Por: Osvaldo Quintero
 
-Nota: Por ser versión de pruebas esta limitado a revisar solo 10 marcas del usuario. No se puede cambiar esa limitante.
+Nota: Por ser versión de pruebas esta limitado a revisar solo 10 marcas del usuario. No se puede cambiar esa limitante.  Si desea la versión sin limites comuníquese con el autor.
 
 Skill para Claude / Cowork que automatiza la **Comparación de marcas contra el boletín oficial de marcas de Panamá**
 

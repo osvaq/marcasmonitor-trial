@@ -73,8 +73,6 @@ marcas", o aporta un PDF de gaceta + un Excel de marcas.
 
 - **Versión de prueba (trial):** esta distribución procesa solo las **primeras 10** de
   las marcas propias por corrida. Es una condición de la licencia.
-- El hash perceptual del logo se calcula directamente con numpy; **no** se usan
-  `imagehash` ni `scipy`.
 - Este proyecto es una herramienta de apoyo a la vigilancia, no sustituye el criterio del
   abogado. Confirme cualquier decisión de oposición con un profesional.
 

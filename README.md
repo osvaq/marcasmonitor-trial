@@ -63,51 +63,11 @@ La columna **"Misma clase = SI"** marca la máxima prioridad legal.
 
 ## Instalación y uso
 
-Requiere **Python 3.10+** (probado en 3.12). Todo corre **offline** — sin API keys ni red.
-
-```bash
-pip install pymupdf openpyxl pillow rapidfuzz jellyfish numpy
-```
-
-Ejecutar el orquestador interactivo desde un directorio con permiso de escritura:
-
-```bash
-python marcasmonitor3.py
-```
-
-Pide dos rutas y corre todo el pipeline:
-
-```
-1. Ruta del PDF del boletin DIGERPI:           <ruta al .pdf>
-2. Ruta del Excel con sus marcas registradas:  <ruta al .xlsx>
-```
-
-En el paso 2 ofrece modo de adaptación: `1 - AUTODETECCION` (por defecto) o
-`2 - Configurar manualmente`. El umbral de comparación es fijo en **60%**.
-
 ### Como skill de Claude / Cowork
 
 Instalado como skill, se activa automáticamente cuando el usuario quiere vigilar un
 boletín/gaceta de marcas, "boletín de marcas", "vigilancia de
 marcas", o aporta un PDF de gaceta + un Excel de marcas.
-
-## Estructura del repositorio
-
-```
-SKILL.md                  Instrucciones del skill (orquestación)
-README.md                 Manual del operador (secciones 1–7) + términos de licencia
-LICENSE.TXT               Licencia
-dependencies.md           Requisitos exactos por módulo
-marcasmonitor3.py         Orquestador interactivo (punto de entrada)
-marcasboletinfetch.py     Extracción del PDF del boletín
-marcasboletinjoiner.py    Unión/armado de registros del boletín
-marca_table_adapter.py    Normalización del Excel de marcas propias
-marcascompare.py          Motor de comparación (nombre + fonética + imagen)
-xlsx_safe.py              Carga segura de .xlsx con logos embebidos
-```
-
-Todos los `.py` deben quedar juntos en un mismo directorio plano (se importan como
-hermanos), y `README.md` debe permanecer junto a los scripts.
 
 ## Notas
 
@@ -117,10 +77,6 @@ hermanos), y `README.md` debe permanecer junto a los scripts.
   `imagehash` ni `scipy`.
 - Este proyecto es una herramienta de apoyo a la vigilancia, no sustituye el criterio del
   abogado. Confirme cualquier decisión de oposición con un profesional.
-
-## Licencia
-
-Ver `LICENSE.TXT`.
 
 ---
 

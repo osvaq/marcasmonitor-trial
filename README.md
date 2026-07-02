@@ -1,6 +1,7 @@
 # marcasmonitor — Vigilancia de marcas del Boletín de Marcas (Panamá) - Versión de Prueba
 
 Por: Osvaldo Quintero
+
 Nota: Por ser versión de pruebas esta limitado a revisar solo 10 marcas del usuario. No se puede cambiar esa limitante.
 
 Skill para Claude / Cowork que automatiza la **Comparación de marcas contra el boletín oficial de marcas de Panamá**

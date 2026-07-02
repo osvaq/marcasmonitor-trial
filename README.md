@@ -12,7 +12,7 @@ nuevas solicitudes publicadas que podrían confundirse con las marcas propias, c
 por **nombre, fonética e imagen del logo**. Después aplica una **revisión de riesgo de
 confusión (likelihood-of-confusion) con IA** para reducir los falsos positivos.
 
-> Es un cribado de vigilancia de gaceta para Panamá/DIGERPI. **No** es una búsqueda de
+> Es un cribado de vigilancia de gaceta para Panamá. **No** es una búsqueda de
 > clearance/knockout general ni una opinión legal.
 
 ---

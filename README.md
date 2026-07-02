@@ -65,9 +65,7 @@ La columna **"Misma clase = SI"** marca la máxima prioridad legal.
 
 ### Como skill de Claude / Cowork
 
-Instalado como skill, se activa automáticamente cuando el usuario quiere vigilar un
-boletín/gaceta de marcas, "boletín de marcas", "vigilancia de
-marcas", o aporta un PDF de gaceta + un Excel de marcas.
+Instalado como skill, se activa automáticamente cuando el usuario aporta un PDF de gaceta + un Excel de marcas del usuario debidamente formateado (logo, nombre, clase Niza, descripción) y escribe /monitormarcas-trial en Claude Cowork de Antrhopic.  
 
 ## Notas
 
